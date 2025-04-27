@@ -1,0 +1,79 @@
+body {
+  text-align: center;
+  background-color: #f0f0f0;
+  color: black;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+table {
+  margin: 0 auto;
+  width: 50%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: center;
+  padding: 10px;
+  height: 8px; /* Makes the columns longer */
+}
+
+thead tr {
+  border-bottom: 2px solid black; /* Adds a thick bottom border to the header row */
+}
+
+th:nth-child(1), td:nth-child(1) {
+  background-color: purple;
+  color: white;
+}
+
+tr:nth-child(odd) td:nth-child(1) {
+  background-color: #a64ca6; /* Grayer shade of purple */
+}
+
+th:nth-child(2), td:nth-child(2) {
+  background-color: yellow;
+  color: black;
+}
+
+tr:nth-child(odd) td:nth-child(2) {
+  background-color: #ffff99; /* Grayer shade of yellow */
+}
+
+th:nth-child(3), td:nth-child(3) {
+  background-color: blue;
+  color: white;
+}
+
+tr:nth-child(odd) td:nth-child(3) {
+  background-color: #99ccff; /* Grayer shade of blue */
+}
+
+th:nth-child(4), td:nth-child(4) {
+  background-color: red;
+  color: white;
+}
+
+tr:nth-child(odd) td:nth-child(4) {
+  background-color: #ff9999; /* Grayer shade of red */
+}
+
+th:nth-child(5), td:nth-child(5) {
+  background-color: pink;
+  color: black;
+}
+
+tr:nth-child(odd) td:nth-child(5) {
+  background-color: #ffccff; /* Grayer shade of pink */
+}
+
+a {
+  color: black; /* Make links black */
+  text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover for better UX */
+}
