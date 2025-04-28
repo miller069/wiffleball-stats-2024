@@ -2,10 +2,19 @@ body {
   text-align: center;
   background-color: #f0f0f0;
   color: black;
+  font-family: 'Arial', sans-serif;
 }
 
 h1 {
   margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+  font-size: 2.5em;
+}
+
+hr {
+  width: 60%;
+  border: 1px solid black;
+  margin: 20px auto; /* Centers the separator */
 }
 
 table {
@@ -25,48 +34,48 @@ thead tr {
 }
 
 th:nth-child(1), td:nth-child(1) {
-  background-color: purple;
-  color: white;
+  background-color: #d3b8d3; /* Grayer shade of purple */
+  color: black;
 }
 
 tr:nth-child(odd) td:nth-child(1) {
-  background-color: #a64ca6; /* Grayer shade of purple */
+  background-color: #e6d5e6; /* Even lighter shade of purple */
 }
 
 th:nth-child(2), td:nth-child(2) {
-  background-color: yellow;
+  background-color: #fff4b3; /* Grayer shade of yellow */
   color: black;
 }
 
 tr:nth-child(odd) td:nth-child(2) {
-  background-color: #ffff99; /* Grayer shade of yellow */
+  background-color: #fff9cc; /* Even lighter shade of yellow */
 }
 
 th:nth-child(3), td:nth-child(3) {
-  background-color: blue;
-  color: white;
+  background-color: #b3cce6; /* Grayer shade of blue */
+  color: black;
 }
 
 tr:nth-child(odd) td:nth-child(3) {
-  background-color: #99ccff; /* Grayer shade of blue */
+  background-color: #d9e6f2; /* Even lighter shade of blue */
 }
 
 th:nth-child(4), td:nth-child(4) {
-  background-color: red;
-  color: white;
+  background-color: #e6b3b3; /* Grayer shade of red */
+  color: black;
 }
 
 tr:nth-child(odd) td:nth-child(4) {
-  background-color: #ff9999; /* Grayer shade of red */
+  background-color: #f2d9d9; /* Even lighter shade of red */
 }
 
 th:nth-child(5), td:nth-child(5) {
-  background-color: pink;
+  background-color: #f2cce6; /* Grayer shade of pink */
   color: black;
 }
 
 tr:nth-child(odd) td:nth-child(5) {
-  background-color: #ffccff; /* Grayer shade of pink */
+  background-color: #f9e6f2; /* Even lighter shade of pink */
 }
 
 a {
